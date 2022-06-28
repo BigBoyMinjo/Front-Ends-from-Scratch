@@ -1,0 +1,312 @@
+.header {       /*styles header*/
+  height: 10vh;
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+}
+
+body {
+  background-color: grey;
+}
+
+.index-main-box{
+  position: relative;
+  width: 100%;
+  height: 55vh;
+}
+
+ /* 1 pret 1,8 proporcijas bildei*/
+.center { /* Centers logo horizontally*/
+  text-align: center;
+  height: auto;
+}
+
+#main-background-img { /*First big background image*/
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  position: relative;
+  z-index: -1;
+  top: -10vh;
+}
+
+#white_logo {
+  width: 20%;
+  height: auto;
+  position: relative;
+  top: -100vh;
+}
+
+
+.hire-a-chef-bttn {
+	background-color:#ffffff;
+	border-radius:2px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Trebuchet MS;
+	font-size:18px;
+	font-weight:bold;
+	padding:1.4% 6%;/*21px 76px*/
+	text-decoration:none;
+  position: relative;
+  text-align: center;
+  top: -90vh;
+  max-width: 20%;
+}
+.hire-a-chef-bttn:hover {
+	background-color:#e38800;
+  color: white;
+}
+ &:active {
+	position:relative;
+	top:1px;
+}
+
+
+.become-chef-bttn {
+	background-color: grey; /*#d49800*/
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Trebuchet MS;
+	font-size: 100%;
+	padding:1% 2.5%;
+	text-decoration:none;
+  position: relative;
+  left: 3%;
+  top: 4vh;
+  /*line height*/
+
+}
+.become-chef-bttn:hover {
+	background-color:transparent;
+  color: orange;
+}
+
+/*.made-easy {
+  position: relative;
+  font-size: 250%;
+  top: -80vh;
+  color: white;
+  font-family: Comic Sans;
+}
+
+.made-easy {
+  font-family:Trebuchet MS;
+}*/
+
+.second-window {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 45vh;
+  background-color: #fafafa;
+  z-index: -1;
+  text-align: center;
+}
+
+.title-2 {
+  width: 80%;
+  left: 10%;
+  height: 25vh;
+  position: relative;
+  background-color: transparent;
+  text-align: center;
+  line-height: 25vh;
+  /*top: 10vh;*/
+}
+
+#hire-title {
+  font-size: 200%;
+  font-family: Trebuchet MS;
+
+}
+
+.p-1 {
+  width: 70%;
+  height: 75vh;
+  position: relative;
+  background-color: #e4f2e8;
+  left: 15%;
+}
+
+.paragraph {
+  height: 100vh;
+  width: 60%;
+  background-color: transparent;
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+}
+
+.paragraph h2 {
+  top: 26%;
+  text-align: center;
+  line-height: 120%;
+  position: relative;
+  font-size: 150%;
+  font-family: Trebuchet MS;
+}
+
+.p-pic {
+  position: relative;
+  width: 40%;
+  height: 40vh;
+  background-color: transparent;
+  left: 60%;
+  top: -82.5vh;
+}
+
+#photo2 {
+  width: 100%;
+  height: auto;
+  max-height: 40vh;
+  position: relative;
+  /*z-index: -1;*/
+}
+
+.fourth-window {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 45vh;
+}
+
+.become-title {
+  width: 100%;
+  height: 25vh;
+  position: relative;
+  background-color: transparent;
+  text-align: center;
+  line-height: 30vh;
+}
+
+#become-title {
+  font-size: 210%;
+  font-family:Trebuchet MS;
+}
+
+.p-2 {
+  width: 70%;
+  height: 75vh;
+  position: relative;
+  background-color: transparent;
+  left: 15%;
+}
+
+.chefs-left {
+  position: relative;
+  width: 50%;
+  height: 10vh;
+  background-color: transparent;
+}
+
+.bartenders-right {
+  position: relative;
+  width: 50%;
+  height: 10vh;
+  background-color: transparent;
+  left: 50%;
+  top: -10vh;
+}
+
+#centre-fourth-left { /* Nocentrē uzrakstus chef un bartender iekš safiem boxiem */
+  text-align: center;
+  font-size: 200%;
+  line-height: 10vh;
+  text-decoration: underline;
+}
+
+#centre-fourth-right { /* Nocentrē uzrakstus chef un bartender iekš safiem boxiem */
+  text-align: center;
+  font-size: 200%;
+  line-height: 10vh;
+  text-decoration: underline dotted black;
+}
+
+.chefs-content-left {
+  position: relative;
+  width: 50%;
+  height: 65vh;
+  background-color: transparent;
+  top: -10vh;
+}
+
+.bartenders-content-right {
+  position: relative;
+  width: 50%;
+  height: 65vh;
+  background-color: transparent;
+  top: -75vh;
+  left: 50%;
+}
+
+.lists {
+  list-style-type: circle;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ul li {
+  background: #e4f2e8;
+  margin: 10%;
+  font-size: 200%;
+}
+
+.footer {
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  background-color: black;
+  top: 45vh;
+}
+
+.leave-a-review {
+  width: 20%;
+  height: 15vh;
+  position: relative;
+  background-color: transparent;
+  left: 80%;
+  text-align: center;
+  line-height: 15vh;
+  top: 10vh;
+  font-size: 130%;
+}
+
+#review {
+  color: white;
+  text-decoration: none;
+  font-family:Trebuchet MS;
+}
+
+#review:hover {
+  color: grey;
+  text-decoration: none;
+  font-family:Trebuchet MS;
+}
+
+#review:active {
+  color: white;
+  text-decoration: none;
+  font-family:Trebuchet MS;
+}
+
+.made-by {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  top: 16.5vh;
+  background-color: transparent;
+}
+
+#made-by {
+  color: white;
+  font-family:Trebuchet MS;
+}
